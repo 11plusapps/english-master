@@ -3,29 +3,29 @@ export const colors = {
   primary: '#3b82f6',
   primaryDark: '#2563eb',
   primaryLight: '#93c5fd',
-  
+
   // Secondary colors
   secondary: '#a855f7',
   secondaryDark: '#9333ea',
   secondaryLight: '#d8b4fe',
-  
+
   // Status colors
   success: '#10b981',
   successDark: '#059669',
   successLight: '#86efac',
-  
+
   error: '#ef4444',
   errorDark: '#dc2626',
   errorLight: '#fca5a5',
-  
+
   warning: '#f59e0b',
   warningDark: '#d97706',
   warningLight: '#fbbf24',
-  
+
   info: '#06b6d4',
   infoDark: '#0891b2',
   infoLight: '#67e8f9',
-  
+
   // Neutral colors
   white: '#ffffff',
   black: '#000000',
@@ -39,31 +39,96 @@ export const colors = {
   gray700: '#374151',
   gray800: '#1f2937',
   gray900: '#111827',
-  
+
+  // Nested gray object for bracket notation
+  gray: {
+    50: '#f9fafb',
+    100: '#f3f4f6',
+    200: '#e5e7eb',
+    300: '#d1d5db',
+    400: '#9ca3af',
+    500: '#6b7280',
+    600: '#4b5563',
+    700: '#374151',
+    800: '#1f2937',
+    900: '#111827',
+  },
+
   // Set colors
   orange: '#f97316',
   orangeLight: '#fdba74',
   orangeDark: '#ea580c',
-  
+
   purple: '#a855f7',
   purpleLight: '#d8b4fe',
   purpleDark: '#9333ea',
-  
+
   cyan: '#06b6d4',
   cyanLight: '#67e8f9',
   cyanDark: '#0891b2',
-  
+
   pink: '#ec4899',
   pinkLight: '#f9a8d4',
   pinkDark: '#db2777',
-  
+
   yellow: '#eab308',
   yellowLight: '#fde047',
   yellowDark: '#ca8a04',
-  
+
   green: '#10b981',
   greenLight: '#86efac',
   greenDark: '#059669',
+
+  // Nested color objects for bracket notation
+  blue: {
+    50: '#eff6ff',
+    100: '#dbeafe',
+    200: '#bfdbfe',
+    500: '#3b82f6',
+    600: '#2563eb',
+  },
+  red: {
+    50: '#fef2f2',
+    100: '#fee2e2',
+    500: '#ef4444',
+    600: '#dc2626',
+  },
+  orange: {
+    50: '#fff7ed',
+    100: '#ffedd5',
+    500: '#f97316',
+    600: '#ea580c',
+  },
+  green: {
+    50: '#f0fdf4',
+    100: '#dcfce7',
+    500: '#10b981',
+    600: '#059669',
+  },
+  purple: {
+    50: '#faf5ff',
+    100: '#f3e8ff',
+    500: '#a855f7',
+    600: '#9333ea',
+  },
+  pink: {
+    50: '#fdf2f8',
+    100: '#fce7f3',
+    500: '#ec4899',
+    600: '#db2777',
+  },
+  indigo: {
+    50: '#eef2ff',
+    100: '#e0e7ff',
+    500: '#6366f1',
+    600: '#4f46e5',
+  },
+  cyan: {
+    50: '#ecfeff',
+    100: '#cffafe',
+    500: '#06b6d4',
+    600: '#0891b2',
+  },
 };
 
 export const gradients = {
