@@ -40,6 +40,22 @@ import WordChallengeGame from '../screens/games/WordChallengeGame';
 import WordBuilderGame from '../screens/games/WordBuilderGame';
 import TreasureHuntGame from '../screens/games/TreasureHuntGame';
 
+// 11+ English Master Screens
+import English11PlusHomeScreen from '../screens/english11Plus/English11PlusHomeScreen';
+import ComprehensionSelectionScreen from '../screens/english11Plus/ComprehensionSelectionScreen';
+import ComprehensionPracticeScreen from '../screens/english11Plus/ComprehensionPracticeScreen';
+import CloseTestSelectionScreen from '../screens/english11Plus/CloseTestSelectionScreen';
+import CloseTestPracticeScreen from '../screens/english11Plus/CloseTestPracticeScreen';
+import GrammarPracticeScreen from '../screens/english11Plus/GrammarPracticeScreen';
+import PunctuationPracticeScreen from '../screens/english11Plus/PunctuationPracticeScreen';
+import SentenceStructurePracticeScreen from '../screens/english11Plus/SentenceStructurePracticeScreen';
+import VerbalReasoningPracticeScreen from '../screens/english11Plus/VerbalReasoningPracticeScreen';
+import SpellingPracticeScreen11Plus from '../screens/english11Plus/SpellingPracticeScreen';
+import CreativeWritingSelectionScreen from '../screens/english11Plus/CreativeWritingSelectionScreen';
+import CreativeWritingScreen from '../screens/english11Plus/CreativeWritingScreen';
+import MockTestSelectionScreen11Plus from '../screens/english11Plus/MockTestSelectionScreen';
+import MockTestInfoScreen11Plus from '../screens/english11Plus/MockTestInfoScreen';
+
 import { colors } from '../styles/theme';
 import { useSubscription } from '../context/SubscriptionContext';
 
@@ -212,6 +228,8 @@ function HomeStack() {
       <Stack.Screen name="CategoryFunGames" component={CategoryFunGamesScreen} />
       <Stack.Screen name="MockTests" component={MockTestsScreen} />
       <Stack.Screen name="MockTestSelection" component={MockTestSelectionScreen} />
+      {/* 11+ English Master */}
+      <Stack.Screen name="English11PlusHome" component={English11PlusHomeScreen} />
     </Stack.Navigator>
   );
 }
@@ -533,6 +551,21 @@ export default function AppNavigator() {
         <Stack.Screen name="WordChallengeGame" component={WordChallengeGame} />
         <Stack.Screen name="WordBuilderGame" component={WordBuilderGame} />
         <Stack.Screen name="TreasureHuntGame" component={TreasureHuntGame} />
+
+        {/* 11+ English Master Screens */}
+        <Stack.Screen name="English11PlusComprehensionSelection" component={ComprehensionSelectionScreen} />
+        <Stack.Screen name="English11PlusComprehensionPractice" component={ComprehensionPracticeScreen} />
+        <Stack.Screen name="English11PlusCloseTestSelection" component={CloseTestSelectionScreen} />
+        <Stack.Screen name="English11PlusCloseTestPractice" component={CloseTestPracticeScreen} />
+        <Stack.Screen name="English11PlusGrammarPractice" component={GrammarPracticeScreen} />
+        <Stack.Screen name="English11PlusPunctuationPractice" component={PunctuationPracticeScreen} />
+        <Stack.Screen name="English11PlusSentenceStructurePractice" component={SentenceStructurePracticeScreen} />
+        <Stack.Screen name="English11PlusVerbalReasoningPractice" component={VerbalReasoningPracticeScreen} />
+        <Stack.Screen name="English11PlusSpellingPractice" component={SpellingPracticeScreen11Plus} />
+        <Stack.Screen name="English11PlusCreativeWritingSelection" component={CreativeWritingSelectionScreen} />
+        <Stack.Screen name="English11PlusCreativeWriting" component={CreativeWritingScreen} />
+        <Stack.Screen name="English11PlusMockTestSelection" component={MockTestSelectionScreen11Plus} />
+        <Stack.Screen name="English11PlusMockTestInfo" component={MockTestInfoScreen11Plus} />
       </Stack.Navigator>
     </NavigationContainer>
   );
